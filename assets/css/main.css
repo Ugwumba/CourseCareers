@@ -1,0 +1,231 @@
+ /* nav */
+.nav_link {
+    color:black;
+    font-weight:500;
+}
+
+.nav_link:hover {
+    color:#3F53CC;
+}
+
+
+.login{
+    border:1px solid #3F53CC;
+    border-radius:5px;
+    background-color:#ffff;
+    font-size: 16px;
+    padding:5px;
+    color:#3F53CC;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.register{
+    background: linear-gradient(to right, #3F53CC, #4C11B0);
+    color:#ffff;
+    border-radius:5px;
+    border:none;
+    padding:6px;
+}
+
+.start_career{
+    font-size:83px;
+    padding-top:20px;
+}
+
+
+.career{
+    background-image: linear-gradient(to right, #FF4D2A, #F17D19);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight:700;
+}
+
+.exprenice_txt{
+    font-size:22px;
+    font-weight:light;
+    color:#3F53CC;
+}
+
+.sub_text{
+    font-size:28px;
+    color:#696969;
+}
+
+.button{
+    background: linear-gradient(to right, #FF4D2A, #F17D19);
+    border:none;
+    padding:16px;
+    border-radius:8px;
+    color:#ffff;
+    width:50%;
+}
+
+/* Partner start */
+
+.partners {
+    color:#1E2F4B;
+}
+.partners-container {
+    overflow: hidden;
+  }
+
+  .partners-row {
+    display: flex;
+    justify-content:space-between;
+    animation: scroll 10s linear infinite;
+  }
+
+
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  /* Parttner end */
+
+  /* course start */
+
+  .course{
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .course_main{
+    color: #3F53CC;
+    font-size:24px;
+  }
+  .card_content {
+    border-radius:20px;
+    padding:16px;
+    border:none;
+  }
+  .career2{
+    color:#3F53CC;
+    font-size:48px;
+  }
+
+  .horizontal-line{
+    width:80px;
+    height:20px;
+    color:#3F53CC;
+  }
+
+  .required{
+    color: #1E2F4B;
+    font-size:26px;
+    font-weight:500;
+  }
+
+
+  /* course end */
+
+
+  /* testimonial start */
+
+  .testimonial h5{
+    font-size: 24px;
+    color:#3F53CC;
+    font-weight:400;
+  }
+
+  .testimonial h1{
+    color:#3F53CC;
+  }
+
+  .testimonial p{
+    font-size:32px;
+    font-weight:350;
+  }
+
+
+  .pricing_main{
+    font-size:24px;
+    color:#3F53CC;
+    font-weight:300;
+  }
+
+  .pricing_small{
+    color:#3F53CC;
+    font-size:36px;
+  }
+
+  .activePrice{
+    background-color:#3F53CC;
+  }
+
+  .pricebtn{
+      background: linear-gradient(to right, #3F53CC, #4C11B0) !important;
+      color:#ffff !important;
+      border-radius:20px !important;
+      border:none !important;
+      padding:6px !important;
+      width:100% !important;
+  }
+
+  .pricebtn_active{
+    background-image: linear-gradient(to right, #FF4D2A, #F17D19);
+    color:#ffff !important;
+    border-radius:20px !important;
+    border:none !important;
+    padding:6px !important;
+    width:100% !important;    
+  }
+
+  .newletter_btn{
+    background-image: linear-gradient(to right, #FF4D2A, #F17D19);
+    color:#ffff !important;
+    border-radius:5px !important;
+    border:none !important;
+    padding:6px !important;
+    width:100% !important;    
+  }
+
+
+
+  .footerHeader{
+    color:#c2bbbb;
+    font-weight:700;
+  }
+
+  .other_links a{
+    color:#ffff;
+  }
+
+
+  .flex-column.other_links {
+    list-style-type: square;
+    color:#ffff;
+  }
+  
+  .flex-column.other_links li {
+    margin-bottom: 10px; /* Adjust the margin between each list item */
+  }
+  
+  /* Optional: You can remove the default padding and margin from the list */
+  .flex-column.other_links {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+@media (max-width: 768px) {
+    .start_career {
+        font-size: 60px; /* Adjust the font size as needed */
+    }
+    .exprenice_txt{
+        font-size:20px;
+    }
+    .sub_text{
+        font-size:20px;
+    }
+}
